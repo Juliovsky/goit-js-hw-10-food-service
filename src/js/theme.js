@@ -3,7 +3,9 @@ const theme = {
   DARK: 'dark-theme',
 };
 
+
 const checkbox = document.querySelector(".js-switch-input");
+checkbox.checked = 
 
 checkbox.addEventListener('change', changeTheme);
 

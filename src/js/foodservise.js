@@ -1,7 +1,7 @@
-import dishes from './menu.json';
+import dishes from '../menu.json';
 
-import temlateItem from './teplateItem.hbs';
-import { template } from 'handlebars';
+import temlateItem from '../templates/teplateItem.hbs';
+
 
 const refs = {
   ulMenu: document.querySelector(".js-menu")
